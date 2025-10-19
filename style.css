@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+}
+
+
+.header {
+    background-color: #1f2937;
+    padding-bottom: 25px;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+#main-header{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#hero-subtext,
+.links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+button{
+    border: none;
+    padding: 2px 15px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
+
+.header-first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 200px;
+    margin-bottom: 20px;
+
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+
+.header-second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+    padding-top: 0px;
+    margin-bottom: 50px;
+}
+
+.header-second-left{
+    width: 40%;
+}
+
+
+
+.placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    width: 50%;
+    height: 250px;
+
+}
+
+.header {
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#info-head{
+    padding-top: 25px;
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-boxes{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 300px;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 60px;
+
+}
+
+.box{
+    border: #124cc0 5px  solid;
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    
+}
+
+.info{
+    text-align: center;
+}
+
+.quote{
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 25px 500px;
+}
+
+.quote span{
+    text-align: right;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.quote p{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.rooter{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.sign-page{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.sign-page-content{
+    border-radius: 15px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 50px;
+}
